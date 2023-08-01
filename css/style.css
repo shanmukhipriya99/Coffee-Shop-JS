@@ -68,11 +68,17 @@ header {
 .find-store {
   display: flex;
   align-items: center;
+  cursor: pointer;
+  color: #008080;
 }
 
 .find-store i {
-    padding-right: 8px;
-    font-size: 25px;
+  padding-right: 8px;
+  font-size: 25px;
+}
+
+.find-store i:hover, .find-store span:hover {
+  color: #ffa500;
 }
 
 .sign-in,
@@ -84,20 +90,24 @@ header {
   cursor: pointer;
   margin-left: 16px;
   line-height: 1.2;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
+}
+
+.sign-in {
+    color: #ffa500;
 }
 
 .join-now {
   background: #008080;
-  color: #fff;
+  color: #333;
 }
 
 .sign-in:hover {
   background: #008080;
-  color: #fff;
+  color: #333;
 }
 
 .join-now:hover {
   background: #fff;
-  color: #008080;
+  color: #ffa500;
 }
