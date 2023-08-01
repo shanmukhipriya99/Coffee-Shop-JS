@@ -2,13 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 20px;
   color: #008080;
 }
 
 body {
   background-color: aliceblue;
+  /* font-size: 20px; */
 }
 
 header {
@@ -21,6 +22,7 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-top: 1%;
 }
@@ -42,7 +44,6 @@ header {
 
 .left-menu ul {
   display: flex;
-  align-items: center;
   list-style-type: none;
   margin: 0;
 }
@@ -56,5 +57,47 @@ header {
 }
 
 .left-menu ul li:hover {
-  color: #FFA500;
+  color: #ffa500;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.find-store {
+  display: flex;
+  align-items: center;
+}
+
+.find-store i {
+    padding-right: 8px;
+    font-size: 25px;
+}
+
+.sign-in,
+.join-now {
+  padding: 7px 16px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 16px;
+  line-height: 1.2;
+  transition: all .5s ease;
+}
+
+.join-now {
+  background: #008080;
+  color: #fff;
+}
+
+.sign-in:hover {
+  background: #008080;
+  color: #fff;
+}
+
+.join-now:hover {
+  background: #fff;
+  color: #008080;
 }
