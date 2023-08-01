@@ -1,2 +1,2 @@
-# Starbucks-Clone-JS
-Starbucks website clone using HTML, CSS, JavaScript
+# Coffee-Shop-JS
+Coffee shop website clone using HTML, CSS, JavaScript
