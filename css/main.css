@@ -19,8 +19,9 @@
   font-weight: 500;
 }
 
-.rewards.left-right-section {
+.left-right-section {
   display: flex;
+  margin-bottom: 32px;
 }
 
 .text {
