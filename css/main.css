@@ -8,6 +8,7 @@
   justify-content: center;
   background-color: #d8e8e3;
   padding: 4%;
+  margin-bottom: 32px;
 }
 
 .announcement span {
@@ -16,4 +17,51 @@
   font-size: 19px;
   line-height: 1.75;
   font-weight: 500;
+}
+
+.rewards.left-right-section {
+  display: flex;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #d8e8e3;
+  padding: 32px 48 px;
+}
+
+.text h1 {
+  margin-bottom: 10px;
+}
+
+.text h3 {
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.image {
+  width: 50%;
+  height: 420px;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+}
+
+.text .cta {
+  padding: 7px 16px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.text .cta:hover {
+  background: #008080;
+  color: #fff;
 }

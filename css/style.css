@@ -58,7 +58,7 @@ header {
 }
 
 .left-menu ul li:hover {
-  color: #ffa500;
+  color: #ff5353af;
 }
 
 .right-menu {
@@ -79,7 +79,7 @@ header {
 }
 
 .find-store i:hover, .find-store span:hover {
-  color: #ffa500;
+  color: #ff5353af;
 }
 
 .sign-in,
@@ -96,12 +96,12 @@ header {
 
 .join-now {
   background: #008080;
-  color: #ffa500;
+  color: #fff;
 }
 
 .sign-in:hover {
     background: #008080;
-    color: #ffa500;
+    color: #fff;
 }
 
 .join-now:hover {
