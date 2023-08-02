@@ -1,4 +1,4 @@
 # Coffee-Shop-JS
-Coffee shop website clone using HTML, CSS, JavaScript
+Coffee shop landing page using HTML, CSS, JavaScript
 
 Hosted on: https://shanmukhipriya99.github.io/Coffee-Shop-JS/
